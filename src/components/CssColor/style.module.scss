@@ -1,0 +1,16 @@
+.css_colors_container {
+    display: flex;
+    .card_wrapper {
+        min-height: calc(100vh - 10px);
+    }
+
+    .first_card_wrapper,
+    .second_card_wrapper {
+        flex-grow: 1;
+        padding: 5px 2.5px 5px 5px;
+    }
+
+    .second_card_wrapper {
+        padding: 5px 5px 5px 2.5px;
+    }
+}
